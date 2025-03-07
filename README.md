@@ -16,15 +16,15 @@ Cross-platform Docker image that combines Bun and Node.js runtimes. Supports lin
 The script will:
 
 1. Create a multi-arch image using Docker buildx
-2. Install Node.js 20.x alongside Bun
+2. Install Node.js 22.x alongside Bun
 3. Push the image to the registry as `v11t/bun-node:{BUN_VERSION}-{NODE_VERSION}`
 
 ## Image Details
 
 - Base Image: `public.ecr.aws/coloop/oven/bun`
-- Added Components: Node.js 20.x
+- Added Components: Node.js 22.x
 - Architectures: linux/amd64, linux/arm64
-- Tag Format: `{BUN_VERSION}-{NODE_VERSION}` (e.g., `1.0.0-20.0.0`)
+- Tag Format: `{BUN_VERSION}-{NODE_VERSION}` (e.g., `1.0.0-22.0.0`)
 
 ## Development
 
